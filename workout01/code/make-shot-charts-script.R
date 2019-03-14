@@ -59,5 +59,5 @@ GSW_shot_charts <- ggplot(data = shots) +
   ggtitle('Shot Charts:GSW (2016 season)') + theme_minimal() +
   facet_wrap(~ name)
 
-ggsave('../gsw-shot-charts.pdf', GSW_shot_charts, device = "pdf", width = 8, height = 7)
-ggsave('../gsw-shot-charts.png', GSW_shot_charts, device = "png", width = 8, height = 7)
+ggsave('../images/gsw-shot-charts.pdf', GSW_shot_charts, device = "pdf", width = 8, height = 7)
+ggsave('../images/gsw-shot-charts.png', GSW_shot_charts, device = "png", width = 8, height = 7)
