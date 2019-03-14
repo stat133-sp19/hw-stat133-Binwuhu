@@ -174,12 +174,9 @@ These five can pass, shoot and defend at an elite level. There’s no such thing
 
 ### **References**
 
-[The Warriors new 'Death Lineup' is going to terrorize the NBA](https://ftw.usatoday.com/2016/07/golden-state-warriors-death-lineup-kevin-durant)
+1.  [The Warriors new 'Death Lineup' is going to terrorize the NBA](https://ftw.usatoday.com/2016/07/golden-state-warriors-death-lineup-kevin-durant)
+2.  [Hampton's 5 is the greatest starting lineup of All Time.](https://www.reddit.com/r/nba/comments/8i8gv6/hamptons_5_is_the_greatest_starting_lineup_of_all/)
+3.  [Wikipedia----Death Lineup](https://en.wikipedia.org/wiki/Death_Lineup)
+4.  [One Team, One Stat -- Golden State Warriors' shooting the best in NBA history ... again](https://www.nba.com/article/2017/12/14/one-team-one-stat-warriors-shooting-better-ever)
 
-[Hampton's 5 is the greatest starting lineup of All Time.](https://www.reddit.com/r/nba/comments/8i8gv6/hamptons_5_is_the_greatest_starting_lineup_of_all/)
-
-[Wikipedia----Death Lineup](https://en.wikipedia.org/wiki/Death_Lineup)
-
-[One Team, One Stat -- Golden State Warriors' shooting the best in NBA history ... again](https://www.nba.com/article/2017/12/14/one-team-one-stat-warriors-shooting-better-ever)
-
-[5 Wild Stats Defining Golden State Warriors' Season](https://bleacherreport.com/articles/2749739-5-wild-stats-defining-golden-state-warriors-season#slide2)
+5.  [5 Wild Stats Defining Golden State Warriors' Season](https://bleacherreport.com/articles/2749739-5-wild-stats-defining-golden-state-warriors-season#slide2)
