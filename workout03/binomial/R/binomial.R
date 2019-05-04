@@ -1,4 +1,4 @@
-#library(roxygen2)
+# library(roxygen2)
 # 1.1)Private Checker Functions
 # Functions that test that whether the input values are valid
 
@@ -112,13 +112,6 @@ aux_kurtosis <- function(trials,prob){
 #' @param k the probability of success on each trial (0 ≤ p ≤ 1)
 #' @return the number of combinations in which k successes can occur in n trials
 #' @export
-#' @example
-#' bin_choose(n = 5, k = 2)
-#' 10
-#' bin_choose(5, 0)
-#' 1
-#' bin_choose(5, 1:3)
-#' 5 10 10
 bin_choose <- function(n,k){
   if (check_success(k,n)){
     return(factorial(n)/(factorial(k)*factorial(n-k)))
@@ -134,6 +127,7 @@ bin_choose <- function(n,k){
 #' @param trials the probability of success on each trial (0 ≤ p ≤ 1)
 #' @param prob the probability of success on each trial (0 ≤ p ≤ 1)
 #' @return the number of combinations in which k successes can occur in n trials
+#' @export
 bin_probability <- function(success, trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -149,7 +143,7 @@ bin_probability <- function(success, trials, prob) {
 #' @param trials the probability of success on each trial (0 ≤ p ≤ 1)
 #' @param prob the probability of success on each trial (0 ≤ p ≤ 1)
 #' @return a data frame with the probability distribution: sucesses in the first column, probability in the second column
-
+#' @export
 bin_distribution <- function(trials,prob){
   success <- c()
   probability <- c()
@@ -174,7 +168,7 @@ plot.bindis <- function(x,...){
 #' @param trials the probability of success on each trial (0 ≤ p ≤ 1)
 #' @param prob the probability of success on each trial (0 ≤ p ≤ 1)
 #' @return a data frame with the probability distribution: sucesses in the first column, probability in the second column
-
+#' @export
 bin_cumulative <- function(trials,prob){
   success <- c()
   probability <- c()
@@ -202,9 +196,7 @@ plot.bincum <- function(x,...){
 #' @param trials number of trials
 #' @param prob probability of success
 #' @return an object of class "binvar", a binomial random ravariable object
-#' examples
-#' bina <- bin_variable(trials = 10, p = 0.3)
-#' bin1
+#' @export
 bin_variable <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -266,8 +258,6 @@ binsum1
 #' @param prob probability of success
 #' @return the calculated mean
 #' @export
-#' @examples
-# bin_mean(10, 0.4)
 bin_mean <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -281,7 +271,7 @@ bin_mean <- function(trials, prob) {
 #' @param trials number of trials
 #' @param prob probability of success
 #' @return the calculated variance
-# bin_variance
+#' @export
 bin_variance <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -295,7 +285,7 @@ bin_variance <- function(trials, prob) {
 #' @param trials number of trials
 #' @param prob probability of success
 #' @return the calculated mode
-# bin_mode
+#' @export
 bin_mode <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -309,7 +299,7 @@ bin_mode <- function(trials, prob) {
 #' @param trials number of trials
 #' @param prob probability of success
 #' @return the calculated skewness
-# bin_skewness
+#' @export
 bin_skewness <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)
@@ -323,7 +313,7 @@ bin_skewness <- function(trials, prob) {
 #' @param trials number of trials
 #' @param prob probability of success
 #' @return the calculated kurtosis
-# bin_kurtosis
+#' @export
 bin_kurtosis <- function(trials, prob) {
   check_trials(trials)
   check_prob(prob)

@@ -13,9 +13,6 @@ bin_variable(trials, prob)
 }
 \value{
 an object of class "binvar", a binomial random ravariable object
-examples
-bina <- bin_variable(trials = 10, p = 0.3)
-bin1
 }
 \description{
 a main function that return a binomial random variable object

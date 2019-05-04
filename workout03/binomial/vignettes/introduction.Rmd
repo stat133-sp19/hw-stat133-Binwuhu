@@ -52,11 +52,11 @@ There are 5 measuring functions in this package. Both of them takes two argument
 
 
 ```{r}
-aux_mean(10, 0.3)
-aux_variance(10, 0.3)
-aux_mode(10, 0.3)
-aux_skewness(10, 0.3)
-aux_kurtosis(10, 0.3)
+bin_mean(10, 0.3)
+bin_variance(10, 0.3)
+bin_mode(10, 0.3)
+bin_skewness(10, 0.3)
+bin_kurtosis(10, 0.3)
 ```
 
 
