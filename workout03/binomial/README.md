@@ -1,18 +1,3 @@
----
-output:
-  github_document:
-    html_preview: false
----
-
-```{r, echo = FALSE, message = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
-
-
-
 ## General Idea
 The package `"binomial"` includes implemented functions for calculating probabilities of a Binomial random variable, and related calculations such as the probability distribution, the expected value, variance, etc.
 
